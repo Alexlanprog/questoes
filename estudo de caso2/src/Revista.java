@@ -6,6 +6,7 @@ public class Revista extends ItemBiblioteca{
         edicao=cEdicao;
     }
 
+    @Override
     public void exibirInformacao(){
         System.out.println("\nTitulo da revista: "+titulo+ "\n Edicao: "+edicao+"\nCodigo da revista: "+codigo);
 
